@@ -17,7 +17,7 @@ class MainWindow(QMainWindow):
         self.setWindowIcon(QIcon("icon.png"))
         self.setWindowIconText("PyPRad")
 
-        self.current_stream = "" # Add a Stream URL.
+        self.current_stream = "https://kathy.torontocast.com:3060/stream" # Add a Stream URL. Default URL
 
         # Setup Media Player
         self.player = QMediaPlayer(self, QMediaPlayer.StreamPlayback)
